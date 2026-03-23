@@ -1,0 +1,24 @@
+name: "Darcula Solid"
+accent: "#176081"      # Kolor zaznaczenia (SELECTION_BACKGROUND) z motywu
+background: "#1C1C1C"  # Główne tło konsoli (CONSOLE_BACKGROUND_KEY)
+foreground: "#CFD2D5"  # Główny kolor tekstu (TEXT FOREGROUND)
+details: "darker"
+terminal_colors:
+  normal:
+    black: "#000000"   # Klasyczna czerń
+    red: "#FF5B56"     # Czerwień
+    green: "#5AF78D"   # Jasna, neonowa zieleń
+    yellow: "#F3F99C"  # Jasny żółty
+    blue: "#5786FE"    # Niebieski
+    magenta: "#FF69C0" # Różowy/Fiolet (Magenta)
+    cyan: "#5ED5ED"    # Błękitny (Cyan)
+    white: "#F1F1F0"   # Podstawowa biel konsoli
+  bright:
+    black: "#5E6063"   # Szary (wyciągnięty z SELECTED_TEARLINE_COLOR)
+    red: "#FF5B56"     # Jasna czerwień (taka sama jak normal w XML)
+    green: "#5AF78D"   # Jasna zieleń (taka sama jak normal w XML)
+    yellow: "#F3F99C"  # Jasny żółty (taki sam jak normal w XML)
+    blue: "#5790FE"    # Jasny niebieski (delikatnie inna wartość w XML)
+    magenta: "#FF69C0" # Jasna magenta (taka sama jak normal w XML)
+    cyan: "#75E7FF"    # Jasny cyjan
+    white: "#F7F7F7"   # Czysta biel (wyciągnięta z CARET_COLOR)
